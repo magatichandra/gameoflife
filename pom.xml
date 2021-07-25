@@ -492,6 +492,23 @@
                         <version>2.1</version>
                     </plugin>
                 </plugins>
+                
+                <repository>
+  <id>AZURETASK1</id>
+  <url>https://pkgs.dev.azure.com/AZURETASK1/_packaging/AZURETASK1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+                
+                    <server>
+      <id>AZURETASK1</id>
+      <username>AZURETASK1</username>
+      <password>[PERSONAL_ACCESS_TOKEN]</password>
+    </server>
             </reporting>
         </profile>
     </profiles>
